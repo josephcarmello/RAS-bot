@@ -16,7 +16,7 @@ An informative Discord bot that listens for `!` commands and responds dynamicall
 
 ```sh
 git clone https://github.com/josephcarmello/RAS-bot.git
-cd YOUR_REPO
+cd RAS-bot
 ```
 
 ### 2️⃣ Create a Virtual Environment (Optional but Recommended)

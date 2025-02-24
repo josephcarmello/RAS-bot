@@ -1,0 +1,11 @@
+services:
+  ras-bot:
+    build: .
+    container_name: ras-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN}
+    command: ["python", "bot.py"]
+
